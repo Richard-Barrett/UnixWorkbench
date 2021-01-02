@@ -21,8 +21,8 @@ while true; do
                 if [ $ANS == $NUM_FILES_CWD]; \
                   then echo "You are Correct there are $ANS files within your directory"; \
                 elif [ $ANS == remote]; \
-                   then echo "You are incorrect $ANS does not equal $NUM_FILES_CWD within your directory"; \
-                        echo "Please try again using the command ls -LAh | wc -l"
+                  then echo "You are incorrect $ANS does not equal $NUM_FILES_CWD within your directory"; \
+                       echo "Please try again using the command ls -LAh | wc -l"
                 fi; \
                 echo "===================================================="; \
                 break;; \
